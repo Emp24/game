@@ -85,7 +85,7 @@ class testGames(unittest.TestCase):
             result.status_code,
             200
         )
-        self.assertEqual(b'{\n "message":"question promoted"\n}', result.data)
+        self.assertEqual(b'{\n  "message": "question promoted"\n}', result.data)
 
 
     def test_delete_game(self):
