@@ -60,7 +60,7 @@ class testGames(unittest.TestCase):
         result = self.app.get('/game/1/mcq')
         result.data = result.data.strip()
 
-        self.assertIn(b'"game_id":1', result.data)
+        self.assertIn(b' \n      "game_id": 1', result.data)
         self.assertIn(b'questions', result.data)
         self.assertIn(b'"Answer1"', result.data)
         self.assertIn(b'"Answer2"', result.data)

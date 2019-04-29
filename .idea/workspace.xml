@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b1e2901-66b6-42ff-9eb1-f3b898696c96" name="Default" comment="PLEASE WORK">
+    <list default="true" id="7b1e2901-66b6-42ff-9eb1-f3b898696c96" name="Default" comment="ViewAGame weird but maybe a fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_project.py" afterDir="false" />
     </list>
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="101" column="66" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="66" />
+            <state relative-caret-position="475">
+              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -269,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556563460734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete_game fixed">
+      <created>1556564689704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556564689704</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ViewAGame weird but maybe a fix">
+      <created>1556565756183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556565756183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -332,7 +346,9 @@
     <MESSAGE value="change to &quot;ViewAGame&quot;" />
     <MESSAGE value="ViewGame back to normal&#10;change in test_edit_questions" />
     <MESSAGE value="PLEASE WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="PLEASE WORK" />
+    <MESSAGE value="delete_game fixed" />
+    <MESSAGE value="ViewAGame weird but maybe a fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="ViewAGame weird but maybe a fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_project.py" />
@@ -377,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="101" column="66" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="66" />
+        <state relative-caret-position="475">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
