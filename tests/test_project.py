@@ -38,7 +38,7 @@ class testGames(unittest.TestCase):
     def test_ViewAGame(self):
         result = self.app.get('/game/2/mcq')
         result.data = result.data.strip()
-        self.assertIn(b'"game_id":2', result.data)
+        self.assertIn('"game_id":2', result.data)
 
 
     def test_AddNewGame(self):
