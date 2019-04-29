@@ -38,7 +38,7 @@ class testGames(unittest.TestCase):
     def test_ViewAGame(self):
         result = self.app.get('/game/2/mcq')
         result.data = result.data.strip()
-        self.assertIn('"game_id":2', result.data)
+        self.assertIn(b'"game_id":2', result.data)
 
 
     def test_AddNewGame(self):
@@ -85,7 +85,7 @@ class testGames(unittest.TestCase):
             result.status_code,
             200
         )
-        self.assertEqual(b'{"message":"question promoted"}\n', result.data)
+        self.assertEqual(b'{\n "message":"question promoted"\n}', result.data)
 
 
     def test_delete_game(self):
