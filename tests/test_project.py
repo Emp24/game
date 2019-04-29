@@ -30,15 +30,15 @@ class testGames(unittest.TestCase):
         result = self.app.get('/games/')
         #self.assertEquals(result.data , b'{"game":[{"category":"MCQ","id":1,"name":"mcq11"},'
                                        #b'{"category":"MCQ","id":2,"name":"mcq12"}]}\n')
-        self.assertIn(b'"game"' , result.data)
-        self.assertIn(b'id' , result.data)
-        self.assertIn(b'category' , result.data)
-        self.assertIn(b'name' , result.data)
+        self.assertIn(b'"game"', result.data)
+        self.assertIn(b'id', result.data)
+        self.assertIn(b'category', result.data)
+        self.assertIn(b'name', result.data)
 
     def test_ViewAGame(self):
         result = self.app.get('/game/2/mcq')
         result.data = result.data.strip()
-        self.assertIn( b'"game_id":2' , result.data)
+        self.assertIn(b'"game_id":2', result.data)
 
 
     def test_AddNewGame(self):
@@ -60,8 +60,8 @@ class testGames(unittest.TestCase):
         result = self.app.get('/game/1/mcq')
         result.data = result.data.strip()
 
-        self.assertIn(b'"game_id":1' , result.data)
-        self.assertIn(b'questions' , result.data)
+        self.assertIn(b'"game_id":1', result.data)
+        self.assertIn(b'questions', result.data)
         self.assertIn(b'"Answer1"', result.data)
         self.assertIn(b'"Answer2"', result.data)
         self.assertIn(b'"Answer3"', result.data)
