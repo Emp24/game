@@ -99,7 +99,7 @@ class testGames(unittest.TestCase):
             result.status_code,
             200
         )
-        self.assertEqual(b'{"message":"question deleted "}\n', result.data)
+        self.assertEqual(b'{\n  "message": "question deleted "\n}', result.data)
 
 
 InstantiateDB()
