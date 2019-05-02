@@ -6,4 +6,4 @@ COPY . /project
 WORKDIR /project
 RUN pip install -r requirements.txt
 ENTRYPOINT [“python”]
-CMD [“project/proect.py”]
+CMD [“project/project.py”]
