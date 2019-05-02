@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b1e2901-66b6-42ff-9eb1-f3b898696c96" name="Default" comment="ViewAGame weird but maybe a fix">
+    <list default="true" id="7b1e2901-66b6-42ff-9eb1-f3b898696c96" name="Default" comment="LOL IT WORKED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="576">
+              <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -28,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/database_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
+            <state relative-caret-position="1080">
               <caret line="64" column="1" selection-start-line="64" selection-end-line="64" selection-end-column="1" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="828">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/games.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="144">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -107,8 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,9 +223,9 @@
     <list>
       <item itemvalue="Python.games" />
       <item itemvalue="Python.project" />
+      <item itemvalue="Python.test_project" />
       <item itemvalue="Python tests.Unittests for test_project.testGamesRoute" />
       <item itemvalue="Python tests.Unittests for test_project.testGamesRoute.test_games_status_code" />
-      <item itemvalue="Python.test_project" />
     </list>
     <recent_temporary>
       <list>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556565756183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LOL IT WORKED">
+      <created>1556566184797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556566184797</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -331,7 +338,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.7737921" visible="true" weight="0.25785482" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7737921" weight="0.25785482" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -348,22 +355,26 @@
     <MESSAGE value="PLEASE WORK" />
     <MESSAGE value="delete_game fixed" />
     <MESSAGE value="ViewAGame weird but maybe a fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="ViewAGame weird but maybe a fix" />
+    <MESSAGE value="LOL IT WORKED" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOL IT WORKED" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_project.py" />
     <entry file="file://$PROJECT_DIR$/project.py" />
     <entry file="file://$PROJECT_DIR$/games.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/tests/test_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="576">
+          <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/database_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
+        <state relative-caret-position="1080">
           <caret line="64" column="1" selection-start-line="64" selection-end-line="64" selection-end-column="1" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -373,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="828">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
@@ -383,7 +394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/games.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="144">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -391,13 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_project.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
