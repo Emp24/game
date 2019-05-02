@@ -5,5 +5,5 @@ RUN apt-get install -y python-pip python-dev build-essential
 COPY . /project
 WORKDIR /project
 RUN pip install -r requirements.txt
-ENTRYPOINT [“python”]
-CMD [“project/project.py”]
+ENTRYPOINT ["python"]
+CMD ["project/project.py"]
